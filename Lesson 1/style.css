@@ -1,0 +1,24 @@
+body{
+    background-color: #fafafa;
+}
+
+#hd3 {
+    font-size: 3em;
+}
+
+h4, h5{
+    color: blue;
+}
+
+
+.heading-greeting{
+    background-color: grey;
+    color: white;
+    height: 20px;
+    width: 20%;
+}
+
+.body-image{
+    width: auto;
+    height: 200px;
+}

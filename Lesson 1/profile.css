@@ -1,0 +1,118 @@
+body
+{
+    font-family: 'helvetica';
+
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 20px;
+
+    background-color: #f2f2f2;
+    /*padding: 0 30px;*/
+}
+
+nav
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    height: 80px;
+
+    background-color: #424242;
+}
+
+nav p
+{
+    font-family: 'arial';
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 40px;
+
+    padding-left: 20px;
+
+    color: #f2f2f2;
+}
+
+.profile-picture
+{
+    width: 250px;
+    height: auto;
+
+    border-radius: 25px;
+}
+
+.name
+{
+    font-size: 3em;
+
+    color: #212121;
+}
+
+.details
+{
+    font-size: 1.5em;
+
+    color: #424242;
+}
+
+.profile-text
+{
+    font-size: 1.5em;
+}
+
+.profile-text b
+{
+    font-size: 1.8em;
+}
+
+.social-link
+{
+    font-size: 1.6em;
+
+    text-decoration: none;
+
+    color: #212121;
+}
+
+.facebook
+{
+    padding: 10px;
+
+    color: #f2f2f2;
+    border-radius: 5px;
+    background-color: #3b5998;
+}
+
+.twitter
+{
+    padding: 10px;
+
+    color: #f2f2f2;
+    border-radius: 5px;
+    background-color: #55acee;
+}
+
+.linkedin
+{
+    padding: 10px;
+
+    color: #f2f2f2;
+    border-radius: 5px;
+    background-color: #007bb5;
+}
+
+.profile-item
+{
+    text-align: center;
+}
+
+
+ul > li
+{
+    display: inline-block;
+
+    padding: 10px 0;
+
+    list-style: none;
+}
