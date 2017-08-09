@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Lesson 2</title>
+    </head>
+    <body>
+        <nav>
+            
+            <h2 class="heading">Waec Application Form</h2>
+        </nav>
+        <p class="heading-text">Please enter your correct credentials
+        in order to apply for your exam.</p>
+        <div class="signup-form">
+            
+            <label class="control-label" for="name">Enter your full name</label>
+            <br>
+            <input class="control-input" id="age" type="text">
+            <br>
+            <label  class="control-label" for="age">Enter your age</label>
+            <br>
+            <input  class="control-input" id="name" type="number">
+            <br>
+            <label class="control-label" for="sex">Gender</label>
+            <br>
+            <input  class="control-input" id="sex" type="text">
+            <br>
+            <label class="control-label" for="email">Enter your email address</label>
+            <br>
+            <input class="control-input"  id="email" type="email">
+            <br>
+            <button id="btn-submit" onclick="apply()">Submit</button>
+        </div>
+        
+        <div class="other">
+            <a href="https://google.com" target="_blank">Google Search</a>
+        </div>
+        
+        <div class="data">
+            
+        </div>
+        <script>
+        
+        var name = document.getElementById("name");
+        var age = document.getElementById("age");
+        var email = document.getElementById("email");
+        var sex = document.getElementById("sex");
+        function apply() {
+        var items = [name, age, email, sex];
+        for (var i = 0, length1 = items.length; i < length1; i++) {
+        console.log(items[i].value)
+        }
+        }
+        </script>
+    </body>
+</html>

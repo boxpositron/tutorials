@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Square Root</title>
+</head>
+<body>
+
+<h1 id="answer"></h1>
+
+<input type="number" id="a">
+<button onclick="squareroot()">Square Root</button>
+
+<script>
+function squareroot() {
+    var a = document.getElementById("a").value;
+    var answer = document.getElementById("answer");
+
+    var b = 0;
+    while (b * b != a && b < a) {
+        b = b + 1;
+    }
+
+    answer.innerHTML = "Answer: " +  b;
+}
+</script>
+
+</body>
+</html>

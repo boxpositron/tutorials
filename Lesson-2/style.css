@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding-top: 100px;
+}
+
+nav{
+    background-color: #212121;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+nav h2{
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+.heading-text{
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+.signup-form{
+    padding: 0 20px;
+
+}
+
+.control-label{
+    font-size: 1.4em;
+}
+
+
+.control-input{
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.other a{
+    display: none;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 1.4em;
+    line-height: 20px;
+    background-color: grey;
+}
